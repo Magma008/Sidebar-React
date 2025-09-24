@@ -4,7 +4,7 @@ import vert from "../../assets/whiteVertical.png"
 
 const Homepage = () => {
   return (
-    <div className="bg-gray-100 py-4 pl-[35px] sm:pl-[75px]">
+    <div className="bg-gray-100 dark:bg-slate-700 py-4 pl-[35px] sm:pl-[75px] dark:text-white">
       <div className="main-container">
         <h2 className="items-start sm:text-[25px] font-xl mb-2">Dashboard</h2>
         <div className="flex gap-5 flex-col sm:flex-row">
